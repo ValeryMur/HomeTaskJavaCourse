@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteLesson8" parallel="false">
+    <test name="Test1">
+        <classes>
+            <class name="homeTask8.Lesson8Method">
+            <methods>
+                <include name="testA"> </include>
+            </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="homeTask8.Lesson8Method">
+                <methods>
+                    <include name="testB"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test3">
+        <classes>
+            <class name="homeTask8.Lesson8Method">
+                <methods>
+                    <include name="testC"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test4">
+        <classes>
+            <class name="homeTask8.Lesson8Method">
+                <methods>
+                    <include name="testD"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test5">
+        <classes>
+            <class name="homeTask8.Lesson8Method">
+                <methods>
+                    <include name="testE"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

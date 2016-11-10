@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteLesson8" parallel="false">
+    <test name="Test1">
+        <parameter name="email" value="qqqq@qq.qq"/>
+        <parameter name="password" value="123456"/>
+        <classes>
+            <class name="homeTask8.Lesson8Method">
+            <methods>
+                <include name="testA"> </include>
+            </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test2">
+        <parameter name="email" value="wwww@ww.ww"/>
+        <parameter name="password" value="654321"/>
+        <classes>
+            <class name="homeTask8.Lesson8Method">
+                <methods>
+                    <include name="testA"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test3">
+        <parameter name="email" value="eeeee@ee.ee"/>
+        <parameter name="password" value="er45t67"/>
+        <classes>
+            <class name="homeTask8.Lesson8Method">
+                <methods>
+                    <include name="testA"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

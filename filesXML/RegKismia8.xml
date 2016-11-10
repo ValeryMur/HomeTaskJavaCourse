@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteLesson8" parallel="false">
+    <test name="Test1">
+        <classes>
+            <class name="homeTask8.RegKismia">
+            <methods>
+                <include name="openSiteKismia"> </include>
+                <include name="dataProvaiderValidEmail"> </include>
+            </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="homeTask8.RegKismia">
+                <methods>
+                    <exclude name="dataProvaiderValidEmail"> </exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
